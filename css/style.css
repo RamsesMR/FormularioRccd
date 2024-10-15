@@ -1,0 +1,71 @@
+/* style.css */
+
+
+.header-custom {
+    background-color: #000000; /* color del header */
+}
+
+/* Clase para la portada */
+.img {
+            max-height: 800px;
+            object-fit: contain;
+        }
+
+.btn-custom-red {
+    background-color: #e74c3c; /* Rojo personalizado */
+    border-color: #e74c3c;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.btn-custom-red:hover {
+    background-color: #c0392b; /* Rojo más oscuro para el hover */
+    border-color: #c0392b;
+}
+
+.btn-custom-grey {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6c757d; /* Gris */
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-custom-grey:hover {
+    background-color: #5a6268; /* Gris más oscuro en hover */
+    color: white;
+}
+
+/* Estilo para el título de la sección */
+.section-title {
+    color: red;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Clase para los asteriscos */
+.asterisk {
+    color: red;
+    font-weight: bold;
+    margin-left: 2px;
+}
+
+/* Estilo para la leyenda de la contraseña */
+.password-hint {
+    font-size: 0.9rem;
+    color: #6c757d; /* Color gris claro de Bootstrap */
+}
+
+.mensaje-error{
+    color: red; 
+  display: none;
+}
+
+@media (max-width: 768px) {
+    footer {
+        font-size: 14px;
+    }
+}
